@@ -1,9 +1,4 @@
 /*Clases*/
-.red{
-    height: 200px;
-    width: 100px;
-    background-color: red;
-}
 .container{
     background: #2193b0;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);  /* Chrome 10-25, Safari 5.1-6 */
@@ -14,6 +9,14 @@
     justify-content: center;
 }
 
+.titulo{
+    text-transform: uppercase;
+}
+
+.paragraph{
+    line-height: 1.8em;
+    font-weight: 300;
+}
 .content{
     max-width: 960px;
     max-height: 500px;
@@ -22,10 +25,34 @@
     background-color: white;
 }
 
+.table{
+    width: 100%;
+    border-spacing: 0;
+}
+
+.table td, .table th{
+    padding: 1em;
+    text-align: left;
+}
+.table tr:nth-child(even){
+    background-color: lightblue;
+}
+
+.fa-solid{
+    color: #ffc400;
+}
 /*identificadores*/ 
 #boton-pago{
     background-color: yellow;
 }   
 
 /*tags*/
-td{border: solid 1px;}
+
+a{
+    text-decoration: none;
+    color: #d500f9;
+}
+html{
+    font-family: 'Nunito', sans-serif;
+}
+
