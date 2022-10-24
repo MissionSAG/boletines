@@ -11,6 +11,7 @@
 
 .titulo{
     text-transform: uppercase;
+    text-align: center;
 }
 
 .paragraph{
@@ -24,6 +25,27 @@
     height: 100%;
     background-color: white;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 16), 0 3px 6px rgba(0, 0, 0, 23);
+    position: relative;
+    padding: 1.8em;
+
+}
+.actions{
+    position: absolute;
+    top: 1em;
+    right: 1em;
+}
+.close{
+    height: 40px;
+    width: 40px;
+    color:white;
+    border-radius: 50%;
+    background-color: #2193b0;
+    display: inline-block;
+    font-weight: 300;
+    cursor:pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .table{
@@ -49,6 +71,7 @@
     border-width: 2px;
     border-color: black;
     padding-bottom: 1em;
+    font-size: 2em;
 }
 /*identificadores*/ 
 #boton-pago{
@@ -65,3 +88,17 @@ html{
     font-family: 'Nunito', sans-serif;
 }
 
+.position{
+    margin-right: 0.5em;
+}
+.address{
+    font-weight: bold;
+    color: #2193b0;
+    font-size: 1.2em;
+}
+
+.main-image{
+    float: left;
+    margin-right: 1em;
+    height: 250px;
+}
